@@ -114,9 +114,21 @@
     <ClInclude Include="src\ColorUtil.h">
       <Filter>src</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="assets\readme.txt" />
+    <ClInclude Include="d3dx11\d3d11.h">
+      <Filter>d3dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11\d3dx11.h">
+      <Filter>d3dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11\d3dx11async.h">
+      <Filter>d3dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11\d3dx11core.h">
+      <Filter>d3dx11</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx11\d3dx11tex.h">
+      <Filter>d3dx11</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="configs">
@@ -140,5 +152,13 @@
     <Filter Include="features">
       <UniqueIdentifier>{794cba75-ace7-4427-b008-fba17046b3f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="d3dx11">
+      <UniqueIdentifier>{a3b451ad-0da2-4ee3-8ad5-f824e71f45f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="d3dx11\d3dx11.lib">
+      <Filter>d3dx11</Filter>
+    </Library>
   </ItemGroup>
 </Project>

@@ -32,4 +32,5 @@
 *.app
 /.vs
 /dll_release
+/dll_debug
 

@@ -64,7 +64,7 @@ DWORD WINAPI MainThread(LPVOID lpThreadParameter)
 	freopen_s(reinterpret_cast<FILE**>(stdout), "CONOUT$", "w", stdout);
 	SetConsoleTitle(TEXT("GenshinImpact"));
 
-	printf("[+] base address: 0x%llX\n", GetModuleHandle(0));
+	printf_s("[+] base address: 0x%llX\n", GetModuleHandle(0));
 
 	Run(FindGenshin());
 
